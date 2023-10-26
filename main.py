@@ -7,4 +7,6 @@ def payments_parse_process(file_path):
     info=get_payments_info(text)
     return info
 
-print(payments_parse_process("example.pdf"))
+if __name__ == "__main__":
+    print(payments_parse_process("example.pdf"))
+    
